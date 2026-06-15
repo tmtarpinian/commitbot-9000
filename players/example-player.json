@@ -1,0 +1,31 @@
+{
+  "realName": "Trevor Smith",
+  "gitlabUsername": "tsmith",
+  "team": "Whitewalkers",
+  "avatar": "Conflict Wizard",
+  "motto": "May the lease be with you."
+}
+
+// # Registration Checklist
+
+// 1. Copy `players/example-player.json`
+// 2. Rename it to:
+
+// ```text
+// players/<gitlab_username>.json
+// ```
+
+// Example:
+
+// ```text
+// players/tsmith.json
+// ```
+
+// 3. Update the fields
+// 4. Commit:
+
+// ```text
+// [REG-001] Register Conflict Wizard
+// ```
+
+// 5. Push your branch

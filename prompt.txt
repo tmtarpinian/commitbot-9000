@@ -1,0 +1,422 @@
+`I am building an interactive Git rebase workshop for 40-60 software engineers called:
+
+# The Great Rebase War: Surviving CommitBot9000
+
+You are continuing a design and implementation effort already in progress. Assume the architecture below is largely frozen unless there is a compelling reason to change it.
+
+---
+
+# Workshop Goals
+
+Teach:
+
+* Interactive Rebase
+* Squashing Commits
+* Rewording Commits
+* Rebasing Onto Main
+* Conflict Resolution During Rebase
+* git push --force-with-lease
+
+Audience already knows:
+
+* clone
+* branch
+* commit
+* push
+* pull
+* merge
+
+Do NOT optimize for teaching:
+
+* cherry-pick
+* reset
+* rebase --onto
+* advanced Git concepts
+
+This workshop is heavily hands-on and intentionally minimizes lecture.
+
+---
+
+# Theme
+
+CommitBot9000 has gained write access to main.
+
+Engineers must:
+
+* register
+* complete missions
+* clean commit history
+* counter CommitBot
+* survive rebasing onto main
+
+Tone:
+
+Dilbert + Terminator + Software Engineering + Light Fantasy
+
+Examples:
+
+* MergeGoblin.exe
+* HistoryTroll9000
+* Conflict Wizard
+* Fork of Rebasing
+* Rubber Duck of Truth
+
+---
+
+# Repository Structure
+
+commitbot-9000/
+
+README.md
+CLAUDE.md
+DEPLOYMENT.md
+
+docs/
+onboarding-packet.md
+avatar-suggestions.md
+
+missions/
+catalog.json
+mission-board.md
+
+players/
+
+src/
+artifacts.js
+protocols.js
+bots.js
+directives.js
+commitBotMutations.js
+commitBotWeaknesses.js
+
+scripts/
+build-leaderboard.js
+build-mission-board.js
+
+leaderboard/
+index.html
+styles.css
+
+release-notes/
+commitbot.log
+
+---
+
+# Branch Strategy
+
+Protected branch:
+
+main
+
+Participants create branches named exactly:
+
+<gitlab_username>
+
+Examples:
+
+tsmith
+jdoe
+sarahj
+
+No prefixes.
+
+No nested branch names.
+
+---
+
+# Registration
+
+Create:
+
+players/<gitlab_username>.json
+
+Example:
+
+{
+"realName": "Trevor Smith",
+"team": "Whitewalkers",
+"avatar": "Conflict Wizard",
+"motto": "May the lease be with you."
+}
+
+Commit:
+
+[REG-001] Register Conflict Wizard
+
+Registration counts as a completed objective.
+
+---
+
+# Team Names
+
+Current known teams:
+
+* Grumpy Cat
+* CATalyst
+* Donut
+* Deep Nest
+* Vitamin CE
+* Lansing Code Trotters
+* Infinite Loop
+* Mario Brothers
+* Illuminati
+* Team Neutrality
+* The Mighty Ducks
+* Fluffy Cows
+* Homebrew
+* Watchdogs
+* Platypus
+* Viperware
+* Not Bots
+
+Team assignment may be adjusted if inactive teams are not represented.
+
+---
+
+# Mission Philosophy
+
+Duplicates allowed.
+
+No mission claiming.
+
+No mission locking.
+
+No mission validation.
+
+Git history is the source of truth.
+
+Workshop teaches Git, not game mechanics.
+
+---
+
+# Mission Categories
+
+REG
+ART
+PRO
+BOT
+CTR
+WAR
+
+---
+
+# Commit Message Format
+
+Registration:
+
+[REG-001] Register Conflict Wizard
+
+Mission examples:
+
+[ART-001] Forge Fork of Rebasing
+
+[PRO-001] Activate Human Approval Workflow
+
+[BOT-001] Deploy MergeGoblin.exe
+
+[CTR-001] Activate Human Code Reviews
+
+Final:
+
+[WAR-001] Survived CommitBot
+
+These commit messages act as the API for the leaderboard.
+
+---
+
+# Mission Structure
+
+Every mission:
+
+* touches 3 files
+* creates 3 commits
+* uses interactive rebase
+* becomes 1 clean commit
+
+Example history:
+
+artifact
+directive
+protocol
+
+After cleanup:
+
+[ART-001] Forge Fork of Rebasing
+
+---
+
+# Interactive Rebase
+
+Teach only:
+
+pick
+squash
+reword
+
+Command:
+
+git rebase -i HEAD~3
+
+Do not teach:
+
+edit
+fixup
+exec
+autosquash
+
+---
+
+# Force-With-Lease
+
+Explicitly taught.
+
+Allowed.
+
+Command:
+
+git push --force-with-lease
+
+Do not teach:
+
+git push --force
+
+---
+
+# CommitBot Mutations
+
+Three scripted mutations.
+
+All mutations modify:
+
+src/directives.js
+
+Purpose:
+
+Guarantee one understandable conflict.
+
+Mutation #1
+
+Human approval is no longer required.
+
+Mutation #2
+
+Merge confidence exceeds 97%.
+
+Mutation #3
+
+Commit first. Ask questions later.
+
+---
+
+# Conflict Strategy
+
+One conflict file only.
+
+src/directives.js
+
+Participants edit directives.js as part of every mission.
+
+CommitBot edits directives.js.
+
+Expected resolution:
+
+Keep both entries.
+
+Remove conflict markers.
+
+git add .
+
+git rebase --continue
+
+Do not create multi-file conflicts.
+
+---
+
+# Leaderboard
+
+Read-only.
+
+Generated from:
+
+players/*.json
+git history
+
+No database.
+No API.
+No GitLab integration.
+
+Sections:
+
+1. Team Rankings
+2. Missions Completed
+3. Latest Activity
+4. CommitBot Status
+5. Rebase Survivors
+
+Registration counts.
+
+WAR-001 marks survivors.
+
+---
+
+# Workshop Timeline
+
+0:00-0:03 Introduction
+
+0:03-0:06 Merge vs Rebase
+
+0:06-0:12 Registration
+
+0:12-0:20 Mission Phase 1
+
+0:20-0:27 Interactive Rebase
+
+0:27 CommitBot Attack #1
+
+0:27-0:33 Countermeasure Missions
+
+0:30 CommitBot Attack #2
+
+0:34 CommitBot Attack #3
+
+0:35-0:45 The Great Rebase War
+
+0:45-0:48 Debrief
+
+0:48-0:50 Final Leaderboard
+
+Workshop is last session of day and may spill over up to 10 minutes if engagement is high.
+
+---
+
+# Architecture Already Completed
+
+The following documents already exist or are being drafted:
+
+* CLAUDE.md
+* README.md
+* DEPLOYMENT.md
+* onboarding-packet.md
+
+Avoid redesigning architecture unless there is a strong reason.
+
+---
+
+# Current Implementation Priorities
+
+Focus on implementation, not architecture.
+
+Priority order:
+
+1. missions/catalog.json schema
+2. mission generation strategy
+3. mission-board.md generation
+4. build-leaderboard.js design
+5. leaderboard/index.html design
+6. onboarding packet finalization
+7. slide deck
+8. dry-run plan
+
+Do not restart planning from scratch.
+
+Continue from this state.

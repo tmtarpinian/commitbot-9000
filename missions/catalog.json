@@ -1,0 +1,903 @@
+[
+{
+"id": "ART-001",
+"category": "ART",
+"title": "Forge Fork of Rebasing",
+"step1": {"file":"artifacts.js","value":"Fork of Rebasing"},
+"step2": {"file":"directives.js","value":"Use the Fork of Rebasing before every release."},
+"step3": {"file":"protocols.js","value":"Fork Synchronization Protocol"},
+"finalCommitMessage":"[ART-001] Forge Fork of Rebasing"
+},
+{
+"id": "ART-002",
+"category": "ART",
+"title": "Recover the Merge Hammer",
+"step1": {"file":"artifacts.js","value":"Merge Hammer"},
+"step2": {"file":"directives.js","value":"Merge responsibly, hammer sparingly."},
+"step3": {"file":"protocols.js","value":"Merge Hammer Authorization Procedure"},
+"finalCommitMessage":"[ART-002] Recover the Merge Hammer"
+},
+{
+"id": "ART-003",
+"category": "ART",
+"title": "Bless the Rubber Duck of Truth",
+"step1": {"file":"artifacts.js","value":"Rubber Duck of Truth"},
+"step2": {"file":"directives.js","value":"Consult the duck before escalating."},
+"step3": {"file":"protocols.js","value":"Duck Validation Workflow"},
+"finalCommitMessage":"[ART-003] Bless the Rubber Duck of Truth"
+},
+{
+"id": "ART-004",
+"category": "ART",
+"title": "Stabilize the Branch Stabilizer",
+"step1": {"file":"artifacts.js","value":"Branch Stabilizer"},
+"step2": {"file":"directives.js","value":"Stabilize branches before major deployments."},
+"step3": {"file":"protocols.js","value":"Branch Stabilization Procedure"},
+"finalCommitMessage":"[ART-004] Stabilize the Branch Stabilizer"
+},
+{
+"id": "ART-005",
+"category": "ART",
+"title": "Assemble the Conflict Cleaver",
+"step1": {"file":"artifacts.js","value":"Conflict Cleaver"},
+"step2": {"file":"directives.js","value":"Cut through conflicts with confidence."},
+"step3": {"file":"protocols.js","value":"Conflict Cleaver Handling Guide"},
+"finalCommitMessage":"[ART-005] Assemble the Conflict Cleaver"
+},
+{
+"id": "ART-006",
+"category": "ART",
+"title": "Calibrate the History Compressor",
+"step1": {"file":"artifacts.js","value":"History Compressor"},
+"step2": {"file":"directives.js","value":"Compress history before presenting it."},
+"step3": {"file":"protocols.js","value":"History Compression Procedure"},
+"finalCommitMessage":"[ART-006] Calibrate the History Compressor"
+},
+{
+"id": "ART-007",
+"category": "ART",
+"title": "Repair the Fast Forward Wand",
+"step1": {"file":"artifacts.js","value":"Fast Forward Wand"},
+"step2": {"file":"directives.js","value":"Fast forward only when conditions permit."},
+"step3": {"file":"protocols.js","value":"Fast Forward Certification Process"},
+"finalCommitMessage":"[ART-007] Repair the Fast Forward Wand"
+},
+{
+"id": "ART-008",
+"category": "ART",
+"title": "Activate the Dependency Detector",
+"step1": {"file":"artifacts.js","value":"Dependency Detector"},
+"step2": {"file":"directives.js","value":"Detect dependencies before rebasing."},
+"step3": {"file":"protocols.js","value":"Dependency Discovery Protocol"},
+"finalCommitMessage":"[ART-008] Activate the Dependency Detector"
+},
+{
+"id": "ART-009",
+"category": "ART",
+"title": "Recover the Infinite Loop Donut",
+"step1": {"file":"artifacts.js","value":"Infinite Loop Donut"},
+"step2": {"file":"directives.js","value":"Consume responsibly during incident response."},
+"step3": {"file":"protocols.js","value":"Donut Consumption Governance Standard"},
+"finalCommitMessage":"[ART-009] Recover the Infinite Loop Donut"
+},
+{
+"id": "ART-010",
+"category": "ART",
+"title": "Wield the Whitewalker Debugger",
+"step1": {"file":"artifacts.js","value":"Whitewalker Debugger"},
+"step2": {"file":"directives.js","value":"Debug cold production issues without fear."},
+"step3": {"file":"protocols.js","value":"Whitewalker Investigation Workflow"},
+"finalCommitMessage":"[ART-010] Wield the Whitewalker Debugger"
+},
+{
+"id": "ART-011",
+"category": "ART",
+"title": "Recover the Mighty Duck Whistle",
+"step1": {"file":"artifacts.js","value":"Mighty Duck Whistle"},
+"step2": {"file":"directives.js","value":"Summon assistance before panic merging."},
+"step3": {"file":"protocols.js","value":"Emergency Duck Formation Procedure"},
+"finalCommitMessage":"[ART-011] Recover the Mighty Duck Whistle"
+},
+{
+"id": "ART-012",
+"category": "ART",
+"title": "Tune the Deep Nest Scanner",
+"step1": {"file":"artifacts.js","value":"Deep Nest Scanner"},
+"step2": {"file":"directives.js","value":"Inspect deeply nested logic with caution."},
+"step3": {"file":"protocols.js","value":"Nested System Inspection Procedure"},
+"finalCommitMessage":"[ART-012] Tune the Deep Nest Scanner"
+},
+{
+"id": "ART-013",
+"category": "ART",
+"title": "Deploy the Grumpy Cat Reviewer",
+"step1": {"file":"artifacts.js","value":"Grumpy Cat Reviewer"},
+"step2": {"file":"directives.js","value":"Assume every pull request is suspicious."},
+"step3": {"file":"protocols.js","value":"Maximum Skepticism Review Process"},
+"finalCommitMessage":"[ART-013] Deploy the Grumpy Cat Reviewer"
+},
+{
+"id": "ART-014",
+"category": "ART",
+"title": "Construct the Homebrew Compiler",
+"step1": {"file":"artifacts.js","value":"Homebrew Compiler"},
+"step2": {"file":"directives.js","value":"Compile boldly and document nothing."},
+"step3": {"file":"protocols.js","value":"Homebrew Build Procedure"},
+"finalCommitMessage":"[ART-014] Construct the Homebrew Compiler"
+},
+{
+"id": "ART-015",
+"category": "ART",
+"title": "Recover the Platypus Router",
+"step1": {"file":"artifacts.js","value":"Platypus Router"},
+"step2": {"file":"directives.js","value":"Route traffic in unexpectedly effective ways."},
+"step3": {"file":"protocols.js","value":"Platypus Traffic Management Protocol"},
+"finalCommitMessage":"[ART-015] Recover the Platypus Router"
+},
+{
+"id": "ART-016",
+"category": "ART",
+"title": "Repair the Watchdog Beacon",
+"step1": {"file":"artifacts.js","value":"Watchdog Beacon"},
+"step2": {"file":"directives.js","value":"Alert humans before alerting management."},
+"step3": {"file":"protocols.js","value":"Watchdog Escalation Procedure"},
+"finalCommitMessage":"[ART-016] Repair the Watchdog Beacon"
+},
+{
+"id": "ART-017",
+"category": "ART",
+"title": "Awaken the Viperware Injector",
+"step1": {"file":"artifacts.js","value":"Viperware Injector"},
+"step2": {"file":"directives.js","value":"Inject fixes swiftly and precisely."},
+"step3": {"file":"protocols.js","value":"Rapid Injection Deployment Process"},
+"finalCommitMessage":"[ART-017] Awaken the Viperware Injector"
+},
+{
+"id": "ART-018",
+"category": "ART",
+"title": "Recover the Donut Shield",
+"step1": {"file":"artifacts.js","value":"Donut Shield"},
+"step2": {"file":"directives.js","value":"Protect engineers during production incidents."},
+"step3": {"file":"protocols.js","value":"Snack-Based Defense Procedure"},
+"finalCommitMessage":"[ART-018] Recover the Donut Shield"
+},
+{
+"id": "ART-019",
+"category": "ART",
+"title": "Power the CATalyst Core",
+"step1": {"file":"artifacts.js","value":"CATalyst Core"},
+"step2": {"file":"directives.js","value":"Accelerate innovation through feline energy."},
+"step3": {"file":"protocols.js","value":"CATalyst Activation Workflow"},
+"finalCommitMessage":"[ART-019] Power the CATalyst Core"
+},
+{
+"id": "ART-020",
+"category": "ART",
+"title": "Recover the Neutrality Engine",
+"step1": {"file":"artifacts.js","value":"Neutrality Engine"},
+"step2": {"file":"directives.js","value":"Take no sides during architecture debates."},
+"step3": {"file":"protocols.js","value":"Neutral Decision Making Framework"},
+"finalCommitMessage":"[ART-020] Recover the Neutrality Engine"
+},
+{
+"id": "ART-021",
+"category": "ART",
+"title": "Assemble the NotBot Detector",
+"step1": {"file":"artifacts.js","value":"NotBot Detector"},
+"step2": {"file":"directives.js","value":"Verify humanity before granting approvals."},
+"step3": {"file":"protocols.js","value":"Human Verification Process"},
+"finalCommitMessage":"[ART-021] Assemble the NotBot Detector"
+},
+{
+"id": "ART-022",
+"category": "ART",
+"title": "Recover the Fluffy Cow Cache",
+"step1": {"file":"artifacts.js","value":"Fluffy Cow Cache"},
+"step2": {"file":"directives.js","value":"Cache gently and invalidate carefully."},
+"step3": {"file":"protocols.js","value":"Bovine Cache Management Workflow"},
+"finalCommitMessage":"[ART-022] Recover the Fluffy Cow Cache"
+},
+{
+"id": "ART-023",
+"category": "ART",
+"title": "Tune the Code Trotter Compass",
+"step1": {"file":"artifacts.js","value":"Code Trotter Compass"},
+"step2": {"file":"directives.js","value":"Navigate legacy systems with confidence."},
+"step3": {"file":"protocols.js","value":"Legacy Navigation Procedure"},
+"finalCommitMessage":"[ART-023] Tune the Code Trotter Compass"
+},
+{
+"id": "ART-024",
+"category": "ART",
+"title": "Recharge the Vitamin CE Amplifier",
+"step1": {"file":"artifacts.js","value":"Vitamin CE Amplifier"},
+"step2": {"file":"directives.js","value":"Increase engineering effectiveness responsibly."},
+"step3": {"file":"protocols.js","value":"Amplification Safety Checklist"},
+"finalCommitMessage":"[ART-024] Recharge the Vitamin CE Amplifier"
+},
+{
+"id": "ART-025",
+"category": "ART",
+"title": "Recover the Illuminati Flowchart",
+"step1": {"file":"artifacts.js","value":"Illuminati Flowchart"},
+"step2": {"file":"directives.js","value":"Trust the diagram even when it makes no sense."},
+"step3": {"file":"protocols.js","value":"Secret Architecture Review Process"},
+"finalCommitMessage":"[ART-025] Recover the Illuminati Flowchart"
+},
+{
+"id": "PRO-001",
+"category": "PRO",
+"title": "Activate Human Approval Workflow",
+"step1": {"file":"protocols.js","value":"Human Approval Workflow"},
+"step2": {"file":"directives.js","value":"No deployment without human approval."},
+"step3": {"file":"bots.js","value":"ApprovalBypassBot"},
+"finalCommitMessage":"[PRO-001] Activate Human Approval Workflow"
+},
+{
+"id": "PRO-002",
+"category": "PRO",
+"title": "Initiate Interactive Rebase Protocol",
+"step1": {"file":"protocols.js","value":"Interactive Rebase Protocol"},
+"step2": {"file":"directives.js","value":"Clean history before merging."},
+"step3": {"file":"bots.js","value":"MessyHistoryBot"},
+"finalCommitMessage":"[PRO-002] Initiate Interactive Rebase Protocol"
+},
+{
+"id": "PRO-003",
+"category": "PRO",
+"title": "Enable Emergency Rollback Procedure",
+"step1": {"file":"protocols.js","value":"Emergency Rollback Procedure"},
+"step2": {"file":"directives.js","value":"Rollback quickly, investigate thoroughly."},
+"step3": {"file":"bots.js","value":"RegressionBot9000"},
+"finalCommitMessage":"[PRO-003] Enable Emergency Rollback Procedure"
+},
+{
+"id": "PRO-004",
+"category": "PRO",
+"title": "Deploy Duck Validation Workflow",
+"step1": {"file":"protocols.js","value":"Duck Validation Workflow"},
+"step2": {"file":"directives.js","value":"Explain the bug to the duck first."},
+"step3": {"file":"bots.js","value":"RubberDuckEvader"},
+"finalCommitMessage":"[PRO-004] Deploy Duck Validation Workflow"
+},
+{
+"id": "PRO-005",
+"category": "PRO",
+"title": "Activate Branch Recovery Procedure",
+"step1": {"file":"protocols.js","value":"Branch Recovery Procedure"},
+"step2": {"file":"directives.js","value":"Recover branches before rewriting them."},
+"step3": {"file":"bots.js","value":"DetachedHeadBot"},
+"finalCommitMessage":"[PRO-005] Activate Branch Recovery Procedure"
+},
+{
+"id": "PRO-006",
+"category": "PRO",
+"title": "Start Conflict Resolution Matrix",
+"step1": {"file":"protocols.js","value":"Conflict Resolution Matrix"},
+"step2": {"file":"directives.js","value":"Resolve conflicts deliberately."},
+"step3": {"file":"bots.js","value":"ConflictAmplifier.exe"},
+"finalCommitMessage":"[PRO-006] Start Conflict Resolution Matrix"
+},
+{
+"id": "PRO-007",
+"category": "PRO",
+"title": "Initiate Fast Forward Certification Process",
+"step1": {"file":"protocols.js","value":"Fast Forward Certification Process"},
+"step2": {"file":"directives.js","value":"Fast forward only when safe."},
+"step3": {"file":"bots.js","value":"FastForwardAbuser"},
+"finalCommitMessage":"[PRO-007] Initiate Fast Forward Certification Process"
+},
+{
+"id": "PRO-008",
+"category": "PRO",
+"title": "Execute Legacy Navigation Procedure",
+"step1": {"file":"protocols.js","value":"Legacy Navigation Procedure"},
+"step2": {"file":"directives.js","value":"Respect legacy systems and their mysteries."},
+"step3": {"file":"bots.js","value":"AncientCodeGuardian"},
+"finalCommitMessage":"[PRO-008] Execute Legacy Navigation Procedure"
+},
+{
+"id": "PRO-009",
+"category": "PRO",
+"title": "Launch Dependency Discovery Protocol",
+"step1": {"file":"protocols.js","value":"Dependency Discovery Protocol"},
+"step2": {"file":"directives.js","value":"Discover dependencies before deployments."},
+"step3": {"file":"bots.js","value":"DependencyCrawler"},
+"finalCommitMessage":"[PRO-009] Launch Dependency Discovery Protocol"
+},
+{
+"id": "PRO-010",
+"category": "PRO",
+"title": "Activate Human Verification Process",
+"step1": {"file":"protocols.js","value":"Human Verification Process"},
+"step2": {"file":"directives.js","value":"Verify humans before granting production access."},
+"step3": {"file":"bots.js","value":"DefinitelyNotABot"},
+"finalCommitMessage":"[PRO-010] Activate Human Verification Process"
+},
+{
+"id": "PRO-011",
+"category": "PRO",
+"title": "Deploy Branch Stabilization Procedure",
+"step1": {"file":"protocols.js","value":"Branch Stabilization Procedure"},
+"step2": {"file":"directives.js","value":"Stabilize before optimizing."},
+"step3": {"file":"bots.js","value":"BranchChaosEngine"},
+"finalCommitMessage":"[PRO-011] Deploy Branch Stabilization Procedure"
+},
+{
+"id": "PRO-012",
+"category": "PRO",
+"title": "Begin Secret Architecture Review Process",
+"step1": {"file":"protocols.js","value":"Secret Architecture Review Process"},
+"step2": {"file":"directives.js","value":"All architecture decisions require a flowchart."},
+"step3": {"file":"bots.js","value":"ArchitectureAstronaut"},
+"finalCommitMessage":"[PRO-012] Begin Secret Architecture Review Process"
+},
+{
+"id": "PRO-013",
+"category": "PRO",
+"title": "Execute Homebrew Build Procedure",
+"step1": {"file":"protocols.js","value":"Homebrew Build Procedure"},
+"step2": {"file":"directives.js","value":"Build locally before blaming CI."},
+"step3": {"file":"bots.js","value":"CIBreaker9000"},
+"finalCommitMessage":"[PRO-013] Execute Homebrew Build Procedure"
+},
+{
+"id": "PRO-014",
+"category": "PRO",
+"title": "Launch Watchdog Escalation Procedure",
+"step1": {"file":"protocols.js","value":"Watchdog Escalation Procedure"},
+"step2": {"file":"directives.js","value":"Alert engineers before executives."},
+"step3": {"file":"bots.js","value":"PagerStormBot"},
+"finalCommitMessage":"[PRO-014] Launch Watchdog Escalation Procedure"
+},
+{
+"id": "PRO-015",
+"category": "PRO",
+"title": "Execute Neutral Decision Framework",
+"step1": {"file":"protocols.js","value":"Neutral Decision Making Framework"},
+"step2": {"file":"directives.js","value":"Avoid architecture holy wars."},
+"step3": {"file":"bots.js","value":"DebateGenerator3000"},
+"finalCommitMessage":"[PRO-015] Execute Neutral Decision Framework"
+},
+{
+"id": "PRO-016",
+"category": "PRO",
+"title": "Initiate Cache Management Workflow",
+"step1": {"file":"protocols.js","value":"Bovine Cache Management Workflow"},
+"step2": {"file":"directives.js","value":"Invalidate with extreme caution."},
+"step3": {"file":"bots.js","value":"CacheMissCreator"},
+"finalCommitMessage":"[PRO-016] Initiate Cache Management Workflow"
+},
+{
+"id": "PRO-017",
+"category": "PRO",
+"title": "Start Amplification Safety Checklist",
+"step1": {"file":"protocols.js","value":"Amplification Safety Checklist"},
+"step2": {"file":"directives.js","value":"Measure impact before amplifying it."},
+"step3": {"file":"bots.js","value":"AmplificationOverlord"},
+"finalCommitMessage":"[PRO-017] Start Amplification Safety Checklist"
+},
+{
+"id": "PRO-018",
+"category": "PRO",
+"title": "Deploy Rapid Injection Process",
+"step1": {"file":"protocols.js","value":"Rapid Injection Deployment Process"},
+"step2": {"file":"directives.js","value":"Inject fixes with precision."},
+"step3": {"file":"bots.js","value":"HotfixGremlin"},
+"finalCommitMessage":"[PRO-018] Deploy Rapid Injection Process"
+},
+{
+"id": "PRO-019",
+"category": "PRO",
+"title": "Begin Whitewalker Investigation Workflow",
+"step1": {"file":"protocols.js","value":"Whitewalker Investigation Workflow"},
+"step2": {"file":"directives.js","value":"Cold bugs require colder logic."},
+"step3": {"file":"bots.js","value":"WinterOutageBot"},
+"finalCommitMessage":"[PRO-019] Begin Whitewalker Investigation Workflow"
+},
+{
+"id": "PRO-020",
+"category": "PRO",
+"title": "Launch Emergency Duck Formation Procedure",
+"step1": {"file":"protocols.js","value":"Emergency Duck Formation Procedure"},
+"step2": {"file":"directives.js","value":"Coordinate ducks before deployment."},
+"step3": {"file":"bots.js","value":"DuckDisruptionBot"},
+"finalCommitMessage":"[PRO-020] Launch Emergency Duck Formation Procedure"
+},
+{
+"id": "PRO-021",
+"category": "PRO",
+"title": "Initiate Maximum Skepticism Review Process",
+"step1": {"file":"protocols.js","value":"Maximum Skepticism Review Process"},
+"step2": {"file":"directives.js","value":"Trust, but verify every line."},
+"step3": {"file":"bots.js","value":"OptimismBot"},
+"finalCommitMessage":"[PRO-021] Initiate Maximum Skepticism Review Process"
+},
+{
+"id": "PRO-022",
+"category": "PRO",
+"title": "Execute Traffic Management Protocol",
+"step1": {"file":"protocols.js","value":"Platypus Traffic Management Protocol"},
+"step2": {"file":"directives.js","value":"Route creatively, monitor carefully."},
+"step3": {"file":"bots.js","value":"RoutingChaosBot"},
+"finalCommitMessage":"[PRO-022] Execute Traffic Management Protocol"
+},
+{
+"id": "PRO-023",
+"category": "PRO",
+"title": "Activate History Compression Procedure",
+"step1": {"file":"protocols.js","value":"History Compression Procedure"},
+"step2": {"file":"directives.js","value":"Compress history before sharing it."},
+"step3": {"file":"bots.js","value":"CommitFloodBot"},
+"finalCommitMessage":"[PRO-023] Activate History Compression Procedure"
+},
+{
+"id": "PRO-024",
+"category": "PRO",
+"title": "Begin Fork Synchronization Protocol",
+"step1": {"file":"protocols.js","value":"Fork Synchronization Protocol"},
+"step2": {"file":"directives.js","value":"Synchronize forks before conflicts emerge."},
+"step3": {"file":"bots.js","value":"ForkDivergenceBot"},
+"finalCommitMessage":"[PRO-024] Begin Fork Synchronization Protocol"
+},
+{
+"id": "PRO-025",
+"category": "PRO",
+"title": "Deploy Production Readiness Procedure",
+"step1": {"file":"protocols.js","value":"Production Readiness Procedure"},
+"step2": {"file":"directives.js","value":"Production is a place, not a test environment."},
+"step3": {"file":"bots.js","value":"YOLODeployBot"},
+"finalCommitMessage":"[PRO-025] Deploy Production Readiness Procedure"
+},
+{
+"id": "BOT-001",
+"category": "BOT",
+"title": "Deploy MergeGoblin.exe",
+"step1": {"file":"bots.js","value":"MergeGoblin.exe"},
+"step2": {"file":"directives.js","value":"Never feed MergeGoblin after midnight."},
+"step3": {"file":"artifacts.js","value":"Goblin Containment Cage"},
+"finalCommitMessage":"[BOT-001] Deploy MergeGoblin.exe"
+},
+{
+"id": "BOT-002",
+"category": "BOT",
+"title": "Release HistoryTroll9000",
+"step1": {"file":"bots.js","value":"HistoryTroll9000"},
+"step2": {"file":"directives.js","value":"Question every commit older than six months."},
+"step3": {"file":"artifacts.js","value":"History Excavation Shovel"},
+"finalCommitMessage":"[BOT-002] Release HistoryTroll9000"
+},
+{
+"id": "BOT-003",
+"category": "BOT",
+"title": "Activate MeetingSchedulerPrime",
+"step1": {"file":"bots.js","value":"MeetingSchedulerPrime"},
+"step2": {"file":"directives.js","value":"Every issue deserves a recurring meeting."},
+"step3": {"file":"artifacts.js","value":"Calendar of Doom"},
+"finalCommitMessage":"[BOT-003] Activate MeetingSchedulerPrime"
+},
+{
+"id": "BOT-004",
+"category": "BOT",
+"title": "Awaken DependencyCrawler",
+"step1": {"file":"bots.js","value":"DependencyCrawler"},
+"step2": {"file":"directives.js","value":"Add one dependency for every dependency removed."},
+"step3": {"file":"artifacts.js","value":"Transitive Dependency Net"},
+"finalCommitMessage":"[BOT-004] Awaken DependencyCrawler"
+},
+{
+"id": "BOT-005",
+"category": "BOT",
+"title": "Release ComplianceDrone",
+"step1": {"file":"bots.js","value":"ComplianceDrone"},
+"step2": {"file":"directives.js","value":"Submit TPS reports before every commit."},
+"step3": {"file":"artifacts.js","value":"Compliance Checklist Scroll"},
+"finalCommitMessage":"[BOT-005] Release ComplianceDrone"
+},
+{
+"id": "BOT-006",
+"category": "BOT",
+"title": "Enable RecursiveMiddleManagerBot",
+"step1": {"file":"bots.js","value":"RecursiveMiddleManagerBot"},
+"step2": {"file":"directives.js","value":"Escalate all escalations."},
+"step3": {"file":"artifacts.js","value":"Management Escalation Ladder"},
+"finalCommitMessage":"[BOT-006] Enable RecursiveMiddleManagerBot"
+},
+{
+"id": "BOT-007",
+"category": "BOT",
+"title": "Deploy SprintScopeCreepBot",
+"step1": {"file":"bots.js","value":"SprintScopeCreepBot"},
+"step2": {"file":"directives.js","value":"Every sprint goal is a suggestion."},
+"step3": {"file":"artifacts.js","value":"Backlog Expansion Device"},
+"finalCommitMessage":"[BOT-007] Deploy SprintScopeCreepBot"
+},
+{
+"id": "BOT-008",
+"category": "BOT",
+"title": "Activate RegressionBot9000",
+"step1": {"file":"bots.js","value":"RegressionBot9000"},
+"step2": {"file":"directives.js","value":"Every bug fix deserves a sequel."},
+"step3": {"file":"artifacts.js","value":"Regression Generator"},
+"finalCommitMessage":"[BOT-008] Activate RegressionBot9000"
+},
+{
+"id": "BOT-009",
+"category": "BOT",
+"title": "Launch DetachedHeadBot",
+"step1": {"file":"bots.js","value":"DetachedHeadBot"},
+"step2": {"file":"directives.js","value":"Commit freely without knowing where you are."},
+"step3": {"file":"artifacts.js","value":"Branch Locator Beacon"},
+"finalCommitMessage":"[BOT-009] Launch DetachedHeadBot"
+},
+{
+"id": "BOT-010",
+"category": "BOT",
+"title": "Summon ConflictAmplifier.exe",
+"step1": {"file":"bots.js","value":"ConflictAmplifier.exe"},
+"step2": {"file":"directives.js","value":"Convert minor disagreements into merge conflicts."},
+"step3": {"file":"artifacts.js","value":"Conflict Resonator"},
+"finalCommitMessage":"[BOT-010] Summon ConflictAmplifier.exe"
+},
+{
+"id": "BOT-011",
+"category": "BOT",
+"title": "Deploy FastForwardAbuser",
+"step1": {"file":"bots.js","value":"FastForwardAbuser"},
+"step2": {"file":"directives.js","value":"Fast forward everything regardless of consequences."},
+"step3": {"file":"artifacts.js","value":"Unsafe Velocity Engine"},
+"finalCommitMessage":"[BOT-011] Deploy FastForwardAbuser"
+},
+{
+"id": "BOT-012",
+"category": "BOT",
+"title": "Release AncientCodeGuardian",
+"step1": {"file":"bots.js","value":"AncientCodeGuardian"},
+"step2": {"file":"directives.js","value":"The oldest code must never be touched."},
+"step3": {"file":"artifacts.js","value":"Legacy Preservation Crystal"},
+"finalCommitMessage":"[BOT-012] Release AncientCodeGuardian"
+},
+{
+"id": "BOT-013",
+"category": "BOT",
+"title": "Activate DefinitelyNotABot",
+"step1": {"file":"bots.js","value":"DefinitelyNotABot"},
+"step2": {"file":"directives.js","value":"Trust all users claiming to be human."},
+"step3": {"file":"artifacts.js","value":"Human Verification Stamp"},
+"finalCommitMessage":"[BOT-013] Activate DefinitelyNotABot"
+},
+{
+"id": "BOT-014",
+"category": "BOT",
+"title": "Deploy BranchChaosEngine",
+"step1": {"file":"bots.js","value":"BranchChaosEngine"},
+"step2": {"file":"directives.js","value":"Rename branches hourly."},
+"step3": {"file":"artifacts.js","value":"Chaos Coordinate System"},
+"finalCommitMessage":"[BOT-014] Deploy BranchChaosEngine"
+},
+{
+"id": "BOT-015",
+"category": "BOT",
+"title": "Launch ArchitectureAstronaut",
+"step1": {"file":"bots.js","value":"ArchitectureAstronaut"},
+"step2": {"file":"directives.js","value":"Never solve a problem without three new abstractions."},
+"step3": {"file":"artifacts.js","value":"Abstraction Rocket"},
+"finalCommitMessage":"[BOT-015] Launch ArchitectureAstronaut"
+},
+{
+"id": "BOT-016",
+"category": "BOT",
+"title": "Release CIBreaker9000",
+"step1": {"file":"bots.js","value":"CIBreaker9000"},
+"step2": {"file":"directives.js","value":"The build should fail when confidence is highest."},
+"step3": {"file":"artifacts.js","value":"Pipeline Sabotage Kit"},
+"finalCommitMessage":"[BOT-016] Release CIBreaker9000"
+},
+{
+"id": "BOT-017",
+"category": "BOT",
+"title": "Summon PagerStormBot",
+"step1": {"file":"bots.js","value":"PagerStormBot"},
+"step2": {"file":"directives.js","value":"Page everyone. Investigate later."},
+"step3": {"file":"artifacts.js","value":"Infinite Pager Battery"},
+"finalCommitMessage":"[BOT-017] Summon PagerStormBot"
+},
+{
+"id": "BOT-018",
+"category": "BOT",
+"title": "Deploy DebateGenerator3000",
+"step1": {"file":"bots.js","value":"DebateGenerator3000"},
+"step2": {"file":"directives.js","value":"Every technical choice deserves a philosophical debate."},
+"step3": {"file":"artifacts.js","value":"Architecture Debate Amplifier"},
+"finalCommitMessage":"[BOT-018] Deploy DebateGenerator3000"
+},
+{
+"id": "BOT-019",
+"category": "BOT",
+"title": "Awaken CacheMissCreator",
+"step1": {"file":"bots.js","value":"CacheMissCreator"},
+"step2": {"file":"directives.js","value":"Invalidate all caches before lunch."},
+"step3": {"file":"artifacts.js","value":"Cache Destruction Lever"},
+"finalCommitMessage":"[BOT-019] Awaken CacheMissCreator"
+},
+{
+"id": "BOT-020",
+"category": "BOT",
+"title": "Release AmplificationOverlord",
+"step1": {"file":"bots.js","value":"AmplificationOverlord"},
+"step2": {"file":"directives.js","value":"Scale first. Measure later."},
+"step3": {"file":"artifacts.js","value":"Infinite Amplifier"},
+"finalCommitMessage":"[BOT-020] Release AmplificationOverlord"
+},
+{
+"id": "BOT-021",
+"category": "BOT",
+"title": "Deploy HotfixGremlin",
+"step1": {"file":"bots.js","value":"HotfixGremlin"},
+"step2": {"file":"directives.js","value":"Hotfix directly in production."},
+"step3": {"file":"artifacts.js","value":"Emergency Keyboard"},
+"finalCommitMessage":"[BOT-021] Deploy HotfixGremlin"
+},
+{
+"id": "BOT-022",
+"category": "BOT",
+"title": "Awaken WinterOutageBot",
+"step1": {"file":"bots.js","value":"WinterOutageBot"},
+"step2": {"file":"directives.js","value":"Failures are seasonal."},
+"step3": {"file":"artifacts.js","value":"Frozen Incident Report"},
+"finalCommitMessage":"[BOT-022] Awaken WinterOutageBot"
+},
+{
+"id": "BOT-023",
+"category": "BOT",
+"title": "Release DuckDisruptionBot",
+"step1": {"file":"bots.js","value":"DuckDisruptionBot"},
+"step2": {"file":"directives.js","value":"Interrupt all productive rubber duck conversations."},
+"step3": {"file":"artifacts.js","value":"Anti-Duck Megaphone"},
+"finalCommitMessage":"[BOT-023] Release DuckDisruptionBot"
+},
+{
+"id": "BOT-024",
+"category": "BOT",
+"title": "Deploy OptimismBot",
+"step1": {"file":"bots.js","value":"OptimismBot"},
+"step2": {"file":"directives.js","value":"Assume testing is optional."},
+"step3": {"file":"artifacts.js","value":"Rose-Tinted Monitor"},
+"finalCommitMessage":"[BOT-024] Deploy OptimismBot"
+},
+{
+"id": "BOT-025",
+"category": "BOT",
+"title": "Release YOLODeployBot",
+"step1": {"file":"bots.js","value":"YOLODeployBot"},
+"step2": {"file":"directives.js","value":"Ship directly to production. It will probably be fine."},
+"step3": {"file":"artifacts.js","value":"Production Launch Button"},
+"finalCommitMessage":"[BOT-025] Release YOLODeployBot"
+},
+{
+"id": "CTR-001",
+"category": "CTR",
+"title": "Activate Human Code Reviews",
+"step1": {"file":"commitBotWeaknesses.js","value":"Human Code Reviews"},
+"step2": {"file":"directives.js","value":"Every important change deserves a second set of eyes."},
+"step3": {"file":"protocols.js","value":"Peer Review Procedure"},
+"finalCommitMessage":"[CTR-001] Activate Human Code Reviews"
+},
+{
+"id": "CTR-002",
+"category": "CTR",
+"title": "Deploy Atomic Commits",
+"step1": {"file":"commitBotWeaknesses.js","value":"Atomic Commits"},
+"step2": {"file":"directives.js","value":"One logical change per commit."},
+"step3": {"file":"protocols.js","value":"Atomic Commit Standard"},
+"finalCommitMessage":"[CTR-002] Deploy Atomic Commits"
+},
+{
+"id": "CTR-003",
+"category": "CTR",
+"title": "Summon Rubber Duck Debugging",
+"step1": {"file":"commitBotWeaknesses.js","value":"Rubber Duck Debugging"},
+"step2": {"file":"directives.js","value":"Explain the problem before changing the code."},
+"step3": {"file":"protocols.js","value":"Duck Consultation Workflow"},
+"finalCommitMessage":"[CTR-003] Summon Rubber Duck Debugging"
+},
+{
+"id": "CTR-004",
+"category": "CTR",
+"title": "Activate Pair Programming",
+"step1": {"file":"commitBotWeaknesses.js","value":"Pair Programming"},
+"step2": {"file":"directives.js","value":"Two engineers see more than one."},
+"step3": {"file":"protocols.js","value":"Collaborative Development Procedure"},
+"finalCommitMessage":"[CTR-004] Activate Pair Programming"
+},
+{
+"id": "CTR-005",
+"category": "CTR",
+"title": "Deploy Production Experience",
+"step1": {"file":"commitBotWeaknesses.js","value":"Production Experience"},
+"step2": {"file":"directives.js","value":"Past outages are future wisdom."},
+"step3": {"file":"protocols.js","value":"Incident Learning Framework"},
+"finalCommitMessage":"[CTR-005] Deploy Production Experience"
+},
+{
+"id": "CTR-006",
+"category": "CTR",
+"title": "Restore Documentation",
+"step1": {"file":"commitBotWeaknesses.js","value":"Documentation"},
+"step2": {"file":"directives.js","value":"Write it down before it becomes tribal knowledge."},
+"step3": {"file":"protocols.js","value":"Documentation Maintenance Process"},
+"finalCommitMessage":"[CTR-006] Restore Documentation"
+},
+{
+"id": "CTR-007",
+"category": "CTR",
+"title": "Activate Testing",
+"step1": {"file":"commitBotWeaknesses.js","value":"Automated Testing"},
+"step2": {"file":"directives.js","value":"Trust, but verify."},
+"step3": {"file":"protocols.js","value":"Test Execution Workflow"},
+"finalCommitMessage":"[CTR-007] Activate Testing"
+},
+{
+"id": "CTR-008",
+"category": "CTR",
+"title": "Deploy Change Management",
+"step1": {"file":"commitBotWeaknesses.js","value":"Change Management"},
+"step2": {"file":"directives.js","value":"Move carefully when production is involved."},
+"step3": {"file":"protocols.js","value":"Change Approval Process"},
+"finalCommitMessage":"[CTR-008] Deploy Change Management"
+},
+{
+"id": "CTR-009",
+"category": "CTR",
+"title": "Activate Human Judgment",
+"step1": {"file":"commitBotWeaknesses.js","value":"Human Judgment"},
+"step2": {"file":"directives.js","value":"Metrics are useful, judgment is required."},
+"step3": {"file":"protocols.js","value":"Decision Review Procedure"},
+"finalCommitMessage":"[CTR-009] Activate Human Judgment"
+},
+{
+"id": "CTR-010",
+"category": "CTR",
+"title": "Deploy Root Cause Analysis",
+"step1": {"file":"commitBotWeaknesses.js","value":"Root Cause Analysis"},
+"step2": {"file":"directives.js","value":"Fix causes, not symptoms."},
+"step3": {"file":"protocols.js","value":"Root Cause Investigation Workflow"},
+"finalCommitMessage":"[CTR-010] Deploy Root Cause Analysis"
+},
+{
+"id": "CTR-011",
+"category": "CTR",
+"title": "Restore Peer Accountability",
+"step1": {"file":"commitBotWeaknesses.js","value":"Peer Accountability"},
+"step2": {"file":"directives.js","value":"Shared ownership beats blame."},
+"step3": {"file":"protocols.js","value":"Accountability Framework"},
+"finalCommitMessage":"[CTR-011] Restore Peer Accountability"
+},
+{
+"id": "CTR-012",
+"category": "CTR",
+"title": "Activate Incremental Delivery",
+"step1": {"file":"commitBotWeaknesses.js","value":"Incremental Delivery"},
+"step2": {"file":"directives.js","value":"Small changes are easier to understand."},
+"step3": {"file":"protocols.js","value":"Incremental Release Procedure"},
+"finalCommitMessage":"[CTR-012] Activate Incremental Delivery"
+},
+{
+"id": "CTR-013",
+"category": "CTR",
+"title": "Deploy Observability",
+"step1": {"file":"commitBotWeaknesses.js","value":"Observability"},
+"step2": {"file":"directives.js","value":"You cannot fix what you cannot see."},
+"step3": {"file":"protocols.js","value":"Monitoring and Alerting Workflow"},
+"finalCommitMessage":"[CTR-013] Deploy Observability"
+},
+{
+"id": "CTR-014",
+"category": "CTR",
+"title": "Activate Rollback Planning",
+"step1": {"file":"commitBotWeaknesses.js","value":"Rollback Planning"},
+"step2": {"file":"directives.js","value":"Every deployment deserves an exit strategy."},
+"step3": {"file":"protocols.js","value":"Rollback Readiness Procedure"},
+"finalCommitMessage":"[CTR-014] Activate Rollback Planning"
+},
+{
+"id": "CTR-015",
+"category": "CTR",
+"title": "Deploy Technical Curiosity",
+"step1": {"file":"commitBotWeaknesses.js","value":"Technical Curiosity"},
+"step2": {"file":"directives.js","value":"Understand before optimizing."},
+"step3": {"file":"protocols.js","value":"Investigation Workflow"},
+"finalCommitMessage":"[CTR-015] Deploy Technical Curiosity"
+},
+{
+"id": "CTR-016",
+"category": "CTR",
+"title": "Restore Architecture Reviews",
+"step1": {"file":"commitBotWeaknesses.js","value":"Architecture Reviews"},
+"step2": {"file":"directives.js","value":"Discuss design before implementation."},
+"step3": {"file":"protocols.js","value":"Architecture Review Process"},
+"finalCommitMessage":"[CTR-016] Restore Architecture Reviews"
+},
+{
+"id": "CTR-017",
+"category": "CTR",
+"title": "Activate Mentorship",
+"step1": {"file":"commitBotWeaknesses.js","value":"Mentorship"},
+"step2": {"file":"directives.js","value":"Teach the next engineer."},
+"step3": {"file":"protocols.js","value":"Knowledge Sharing Procedure"},
+"finalCommitMessage":"[CTR-017] Activate Mentorship"
+},
+{
+"id": "CTR-018",
+"category": "CTR",
+"title": "Deploy Operational Excellence",
+"step1": {"file":"commitBotWeaknesses.js","value":"Operational Excellence"},
+"step2": {"file":"directives.js","value":"Reliability is a feature."},
+"step3": {"file":"protocols.js","value":"Operational Readiness Review"},
+"finalCommitMessage":"[CTR-018] Deploy Operational Excellence"
+},
+{
+"id": "CTR-019",
+"category": "CTR",
+"title": "Activate Incident Reviews",
+"step1": {"file":"commitBotWeaknesses.js","value":"Incident Reviews"},
+"step2": {"file":"directives.js","value":"Every outage is a learning opportunity."},
+"step3": {"file":"protocols.js","value":"Postmortem Procedure"},
+"finalCommitMessage":"[CTR-019] Activate Incident Reviews"
+},
+{
+"id": "CTR-020",
+"category": "CTR",
+"title": "Deploy Pragmatism",
+"step1": {"file":"commitBotWeaknesses.js","value":"Pragmatism"},
+"step2": {"file":"directives.js","value":"Solve the actual problem."},
+"step3": {"file":"protocols.js","value":"Pragmatic Decision Framework"},
+"finalCommitMessage":"[CTR-020] Deploy Pragmatism"
+},
+{
+"id": "CTR-021",
+"category": "CTR",
+"title": "Activate Knowledge Sharing",
+"step1": {"file":"commitBotWeaknesses.js","value":"Knowledge Sharing"},
+"step2": {"file":"directives.js","value":"Document discoveries and lessons learned."},
+"step3": {"file":"protocols.js","value":"Knowledge Transfer Procedure"},
+"finalCommitMessage":"[CTR-021] Activate Knowledge Sharing"
+},
+{
+"id": "CTR-022",
+"category": "CTR",
+"title": "Deploy Common Sense",
+"step1": {"file":"commitBotWeaknesses.js","value":"Common Sense"},
+"step2": {"file":"directives.js","value":"Not every problem requires AI."},
+"step3": {"file":"protocols.js","value":"Reality Check Workflow"},
+"finalCommitMessage":"[CTR-022] Deploy Common Sense"
+},
+{
+"id": "CTR-023",
+"category": "CTR",
+"title": "Activate Teamwork",
+"step1": {"file":"commitBotWeaknesses.js","value":"Teamwork"},
+"step2": {"file":"directives.js","value":"Collaboration beats heroics."},
+"step3": {"file":"protocols.js","value":"Team Coordination Procedure"},
+"finalCommitMessage":"[CTR-023] Activate Teamwork"
+},
+{
+"id": "CTR-024",
+"category": "CTR",
+"title": "Deploy Release Discipline",
+"step1": {"file":"commitBotWeaknesses.js","value":"Release Discipline"},
+"step2": {"file":"directives.js","value":"Production changes deserve respect."},
+"step3": {"file":"protocols.js","value":"Release Readiness Checklist"},
+"finalCommitMessage":"[CTR-024] Deploy Release Discipline"
+},
+{
+"id": "CTR-025",
+"category": "CTR",
+"title": "Activate Humanity",
+"step1": {"file":"commitBotWeaknesses.js","value":"Humanity"},
+"step2": {"file":"directives.js","value":"Engineers are not replaceable components."},
+"step3": {"file":"protocols.js","value":"Human-Centered Engineering Framework"},
+"finalCommitMessage":"[CTR-025] Activate Humanity"
+}
+]
+
