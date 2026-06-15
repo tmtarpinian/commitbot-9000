@@ -1,129 +1,50 @@
 # README.md
 
-# CommitBot9000
+Welcome, engineer.
 
 CommitBot9000 has gained write access to `main`.
 
-The engineering organization has authorized emergency intervention.
-
 Your objectives:
 
-1. Register your engineer
+1. Registration
 2. Complete missions
-3. Clean your commit history
+3. Clean your Git history
 4. Counter CommitBot
 5. Survive rebasing onto main
 
 ---
 
-## Start Here
+## What You'll Practice
 
-Read:
+Today we will practice:
 
-```text
-docs/onboarding-packet.md
-```
-
-Everything needed for the workshop is documented there.
+* Interactive Rebase
+* Squashing Commits
+* Rewording Commits
+* Rebasing Onto Main
+* Conflict Resolution
+* git push --force-with-lease
 
 ---
-
 ## Quick Start
+git clone https://github.com/yourorg/commitbot-9000.git
+cd commitbot-9000
 
-Create a branch using your GitLab username:
+## Objectives
 
-```bash
-git switch -c <gitlab_username>
-```
+We've provided a markdown file for each objective.
+Please work through them in order
 
-Example:
+1. [Create a branch](docs/create-branch.md)
+2. [Registration](docs/registration.md)
+3. [Complete 3-5 Missions](docs/missions.md)
 
-```bash
-git switch -c tsmith
-```
 
-Push:
+The markdown files are nested in an attempt to keep the files smaller.
+Get lost?
+The flow is README.md -> docs -> missions
+Start here, move to a .md in /docs, eventually reference a .md file in /missions
 
-```bash
-git push -u origin tsmith
-```
-
----
-
-## Registration
-
-Create:
-
-```text
-players/<gitlab_username>.json
-```
-
-Example:
-
-```json
-{
-  "realName": "Trevor Smith",
-  "team": "Whitewalkers",
-  "avatar": "Conflict Wizard",
-  "motto": "May the lease be with you."
-}
-```
-
-Commit:
-
-```bash
-git add .
-git commit -m "[REG-001] Register Conflict Wizard"
-git push
-```
-
----
-
-## Missions
-
-Mission board:
-
-```text
-missions/mission-board.md
-```
-
-Choose any mission.
-
-Complete all three steps.
-
-Commit after each step.
-
-Then clean your history using:
-
-```bash
-git rebase -i HEAD~3
-```
-
----
-
-## CommitBot
-
-CommitBot9000 will introduce mutations into `main` throughout the workshop.
-
-These mutations are intentional.
-
-Conflicts are expected.
-
-Panic is optional.
-
----
-
-## Leaderboard
-
-The facilitator will project a live leaderboard throughout the workshop.
-
-Tracked categories:
-
-* Team Rankings
-* Missions Completed
-* Latest Activity
-* CommitBot Status
-* Rebase Survivors
 
 ---
 
@@ -143,31 +64,3 @@ Do Not:
 * Force push another engineer's branch
 
 ---
-
-## Victory Condition
-
-When instructed:
-
-```bash
-git fetch origin
-
-git rebase origin/main
-```
-
-Resolve conflicts.
-
-Push using:
-
-```bash
-git push --force-with-lease
-```
-
-Then complete:
-
-```text
-[WAR-001] Survived CommitBot
-```
-
-If your branch survives the rebase war, you win.
-
-Good luck, engineer.

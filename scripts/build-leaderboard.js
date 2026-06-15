@@ -2,8 +2,6 @@ const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 
-const PLAYERS_DIR = path.join(__dirname, "..", "players");
-
 const XP_RULES = [
   { prefix: "REG", xp: 10 },
   { prefix: "ART", xp: 20 },
@@ -12,26 +10,6 @@ const XP_RULES = [
   { prefix: "CTR", xp: 20 },
   { prefix: "WAR", xp: 50 }
 ];
-
-function loadPlayers() {
-  const players = {};
-
-  const files = fs
-    .readdirSync(PLAYERS_DIR)
-    .filter(file => file.endsWith(".json"));
-
-  for (const file of files) {
-    const fullPath = path.join(PLAYERS_DIR, file);
-
-    const player = JSON.parse(
-      fs.readFileSync(fullPath, "utf8")
-    );
-
-    players[player.gitlabUsername] = player;
-  }
-
-  return players;
-}
 
 function getGitHistory() {
   const output = execSync(
@@ -53,29 +31,38 @@ function getGitHistory() {
     });
 }
 
-function initializePlayerScores(players) {
-  const result = {};
+function initializePlayerScores(commits) {
 
-  for (const username of Object.keys(players)) {
-    result[username] = {
-      username,
-      realName: players[username].realName,
-      team: players[username].team,
-      avatar: players[username].avatar,
+  const players = {};
+
+  for (const commit of commits) {
+
+    const registration = parseRegistration(
+      commit.subject
+    );
+
+    if (!registration) {
+      continue;
+    }
+
+    if (players[registration.username]) {
+      continue;
+    }
+
+    players[registration.username] = {
+      username: registration.username,
+      team: registration.team,
 
       xp: 0,
-
       registrations: 0,
-
       missionsCompleted: 0,
-
       survivor: false,
 
       completedMissionIds: new Set()
     };
   }
 
-  return result;
+  return players;
 }
 
 function xpForCategory(category) {
@@ -103,8 +90,8 @@ function parseMission(subject) {
   };
 }
 
-function buildScores(players, commits) {
-  const scoreboard = initializePlayerScores(players);
+function buildScores(commits) {
+  const scoreboard = initializePlayerScores(commits);
 
   for (const commit of commits) {
     const mission = parseMission(commit.subject);
@@ -216,6 +203,22 @@ function buildSurvivors(scoreboard) {
     });
 }
 
+function parseRegistration(subject) {
+
+  const match = subject.match(
+    /^\[REG-\d+\]\[([^\]]+)\]\[([^\]]+)\]/
+  );
+
+  if (!match) {
+    return null;
+  }
+
+  return {
+    username: match[1],
+    team: match[2]
+  };
+}
+
 function formatTimestamp(epochSeconds) {
   const date = new Date(epochSeconds * 1000);
 
@@ -288,7 +291,7 @@ function generateHtml({
     .map((player, index) => `
       <tr>
         <td>${index + 1}</td>
-        <td>${player.realName}</td>
+        <td>${player.username}</td>
         <td>${player.team}</td>
         <td>${player.xp}</td>
         <td>${player.missionsCompleted}</td>
@@ -429,16 +432,6 @@ function generateHtml({
 
       </section>
 
-      <section>
-
-        <h2>CommitBot Survivors</h2>
-
-        <ul>
-          ${survivorRows}
-        </ul>
-
-      </section>
-
     </div>
 
     <aside class="activity-column">
@@ -457,23 +450,21 @@ function generateHtml({
 
 </body>
 
+
 </html>
+<script>
+  setInterval(() => {
+    location.reload();
+  }, 10000);
+</script>
 `;
 }
 
-function main() {
-
-  const players = loadPlayers();
-  if (Object.keys(players).length === 0) {
-  throw new Error(
-    "No player registrations found."
-  );
-}
+ function main() {
 
   const commits = getGitHistory();
 
   const scoreboard = buildScores(
-    players,
     commits
   );
 
@@ -487,28 +478,29 @@ function main() {
   });
 
   const leaderboardDir = path.join(
-  __dirname,
-  "..",
-  "leaderboard"
-);
+    __dirname,
+    "..",
+    "leaderboard"
+  );
 
- const outputFile = path.join(
-  leaderboardDir,
-  "index.html"
-);
+  const outputFile = path.join(
+    leaderboardDir,
+    "index.html"
+  );
 
-fs.mkdirSync(leaderboardDir, {
-  recursive: true
-});
+  fs.mkdirSync(leaderboardDir, {
+    recursive: true
+  });
 
   fs.writeFileSync(outputFile, html);
 
   console.log(`
-    Leaderboard generated
-    Players: ${Object.keys(players).length}
-    Commits: ${commits.length}
-    Teams: ${buildTeamRankings(scoreboard).length}
-  `);
+Leaderboard generated
+
+Players: ${Object.keys(scoreboard).length}
+Commits: ${commits.length}
+Teams: ${buildTeamRankings(scoreboard).length}
+`);
 }
 
 main();

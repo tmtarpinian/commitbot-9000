@@ -1,15 +1,15 @@
 # Bot Missions
 
-Complete any Bot Mission.
+There are 25 missions below. Pick a random one and then:
 
-For each mission:
-
-1. Add the Bot
-2. Add the Directive
-3. Add the Artifact
-4. Commit after each step
-5. Squash with interactive rebase
-6. Use the Final Commit Message
+1. Take the mission's artifact value, and add it to the artifact.js array (just copy and paste, we're not actually writing javasript and calling `append`)
+2. Commit
+3. Take the mission's directive value, and add it to the directive.js array 
+4. commit
+5. Take the mission's protocol value, and add it to the protocol.js array 
+6. commit
+7. [Clean your history](../docs/missions.md#cleaning-history)
+8. Push
 
 ---
 
@@ -25,7 +25,7 @@ Artifact:
 Goblin Containment Cage
 
 Final Commit:
-[BOT-001] Deploy MergeGoblin.exe
+[BOT-001][your gitlab username] Deploy MergeGoblin.exe
 
 ---
 
@@ -41,7 +41,7 @@ Artifact:
 History Excavation Shovel
 
 Final Commit:
-[BOT-002] Release HistoryTroll9000
+[BOT-002][your gitlab username] Release HistoryTroll9000
 
 ---
 
@@ -57,7 +57,7 @@ Artifact:
 Calendar of Doom
 
 Final Commit:
-[BOT-003] Activate MeetingSchedulerPrime
+[BOT-003][your gitlab username] Activate MeetingSchedulerPrime
 
 ---
 
@@ -73,7 +73,7 @@ Artifact:
 Transitive Dependency Net
 
 Final Commit:
-[BOT-004] Awaken DependencyCrawler
+[BOT-004][your gitlab username] Awaken DependencyCrawler
 
 ---
 
@@ -89,7 +89,7 @@ Artifact:
 Compliance Checklist Scroll
 
 Final Commit:
-[BOT-005] Release ComplianceDrone
+[BOT-005][your gitlab username] Release ComplianceDrone
 
 ---
 
@@ -105,7 +105,7 @@ Artifact:
 Management Escalation Ladder
 
 Final Commit:
-[BOT-006] Enable RecursiveMiddleManagerBot
+[BOT-006][your gitlab username] Enable RecursiveMiddleManagerBot
 
 ---
 
@@ -121,7 +121,7 @@ Artifact:
 Backlog Expansion Device
 
 Final Commit:
-[BOT-007] Deploy SprintScopeCreepBot
+[BOT-007][your gitlab username] Deploy SprintScopeCreepBot
 
 ---
 
@@ -137,7 +137,7 @@ Artifact:
 Regression Generator
 
 Final Commit:
-[BOT-008] Activate RegressionBot9000
+[BOT-008][your gitlab username] Activate RegressionBot9000
 
 ---
 
@@ -153,7 +153,7 @@ Artifact:
 Branch Locator Beacon
 
 Final Commit:
-[BOT-009] Launch DetachedHeadBot
+[BOT-009][your gitlab username] Launch DetachedHeadBot
 
 ---
 
@@ -169,7 +169,7 @@ Artifact:
 Conflict Resonator
 
 Final Commit:
-[BOT-010] Summon ConflictAmplifier.exe
+[BOT-010][your gitlab username] Summon ConflictAmplifier.exe
 
 ---
 
@@ -185,7 +185,7 @@ Artifact:
 Unsafe Velocity Engine
 
 Final Commit:
-[BOT-011] Deploy FastForwardAbuser
+[BOT-011][your gitlab username] Deploy FastForwardAbuser
 
 ---
 
@@ -201,7 +201,7 @@ Artifact:
 Legacy Preservation Crystal
 
 Final Commit:
-[BOT-012] Release AncientCodeGuardian
+[BOT-012][your gitlab username] Release AncientCodeGuardian
 
 ---
 
@@ -217,7 +217,7 @@ Artifact:
 Human Verification Stamp
 
 Final Commit:
-[BOT-013] Activate DefinitelyNotABot
+[BOT-013][your gitlab username] Activate DefinitelyNotABot
 
 ---
 
@@ -233,7 +233,7 @@ Artifact:
 Chaos Coordinate System
 
 Final Commit:
-[BOT-014] Deploy BranchChaosEngine
+[BOT-014][your gitlab username] Deploy BranchChaosEngine
 
 ---
 
@@ -249,7 +249,7 @@ Artifact:
 Abstraction Rocket
 
 Final Commit:
-[BOT-015] Launch ArchitectureAstronaut
+[BOT-015][your gitlab username] Launch ArchitectureAstronaut
 
 ---
 
@@ -265,7 +265,7 @@ Artifact:
 Pipeline Sabotage Kit
 
 Final Commit:
-[BOT-016] Release CIBreaker9000
+[BOT-016][your gitlab username] Release CIBreaker9000
 
 ---
 
@@ -281,7 +281,7 @@ Artifact:
 Infinite Pager Battery
 
 Final Commit:
-[BOT-017] Summon PagerStormBot
+[BOT-017][your gitlab username] Summon PagerStormBot
 
 ---
 
@@ -297,7 +297,7 @@ Artifact:
 Architecture Debate Amplifier
 
 Final Commit:
-[BOT-018] Deploy DebateGenerator3000
+[BOT-018][your gitlab username] Deploy DebateGenerator3000
 
 ---
 
@@ -313,7 +313,7 @@ Artifact:
 Cache Destruction Lever
 
 Final Commit:
-[BOT-019] Awaken CacheMissCreator
+[BOT-019][your gitlab username] Awaken CacheMissCreator
 
 ---
 
@@ -329,7 +329,7 @@ Artifact:
 Infinite Amplifier
 
 Final Commit:
-[BOT-020] Release AmplificationOverlord
+[BOT-020][your gitlab username] Release AmplificationOverlord
 
 ---
 
@@ -345,7 +345,7 @@ Artifact:
 Emergency Keyboard
 
 Final Commit:
-[BOT-021] Deploy HotfixGremlin
+[BOT-021][your gitlab username] Deploy HotfixGremlin
 
 ---
 
@@ -361,7 +361,7 @@ Artifact:
 Frozen Incident Report
 
 Final Commit:
-[BOT-022] Awaken WinterOutageBot
+[BOT-022][your gitlab username] Awaken WinterOutageBot
 
 ---
 
@@ -377,7 +377,7 @@ Artifact:
 Anti-Duck Megaphone
 
 Final Commit:
-[BOT-023] Release DuckDisruptionBot
+[BOT-023][your gitlab username] Release DuckDisruptionBot
 
 ---
 
@@ -393,7 +393,7 @@ Artifact:
 Rose-Tinted Monitor
 
 Final Commit:
-[BOT-024] Deploy OptimismBot
+[BOT-024][your gitlab username] Deploy OptimismBot
 
 ---
 
@@ -409,7 +409,7 @@ Artifact:
 Production Launch Button
 
 Final Commit:
-[BOT-025] Release YOLODeployBot
+[BOT-025][your gitlab username] Release YOLODeployBot
 
 ```
 ```

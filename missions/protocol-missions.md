@@ -1,16 +1,15 @@
 # Protocol Missions
 
-Complete any Protocol Mission.
+There are 25 missions below. Pick a random one and then:
 
-For each mission:
-
-1. Add the Protocol
-2. Add the Directive
-3. Add the Bot
-4. Commit after each step
-5. Squash with interactive rebase
-6. Use the Final Commit Message
-
+1. Take the mission's artifact value, and add it to the artifact.js array (just copy and paste, we're not actually writing javasript and calling `append`)
+2. Commit
+3. Take the mission's directive value, and add it to the directive.js array 
+4. commit
+5. Take the mission's protocol value, and add it to the protocol.js array 
+6. commit
+7. [Clean your history](../docs/missions.md#cleaning-history)
+8. Push
 ---
 
 ## PRO-001 — Activate Human Approval Workflow
@@ -25,7 +24,7 @@ Bot:
 ApprovalBypassBot
 
 Final Commit:
-[PRO-001] Activate Human Approval Workflow
+[PRO-001][your gitlab username] Activate Human Approval Workflow
 
 ---
 
@@ -41,7 +40,7 @@ Bot:
 MessyHistoryBot
 
 Final Commit:
-[PRO-002] Initiate Interactive Rebase Protocol
+[PRO-002][your gitlab username] Initiate Interactive Rebase Protocol
 
 ---
 
@@ -57,7 +56,7 @@ Bot:
 RegressionBot9000
 
 Final Commit:
-[PRO-003] Enable Emergency Rollback Procedure
+[PRO-003][your gitlab username] Enable Emergency Rollback Procedure
 
 ---
 
@@ -73,7 +72,7 @@ Bot:
 RubberDuckEvader
 
 Final Commit:
-[PRO-004] Deploy Duck Validation Workflow
+[PRO-004][your gitlab username] Deploy Duck Validation Workflow
 
 ---
 
@@ -89,7 +88,7 @@ Bot:
 DetachedHeadBot
 
 Final Commit:
-[PRO-005] Activate Branch Recovery Procedure
+[PRO-005][your gitlab username] Activate Branch Recovery Procedure
 
 ---
 
@@ -105,7 +104,7 @@ Bot:
 ConflictAmplifier.exe
 
 Final Commit:
-[PRO-006] Start Conflict Resolution Matrix
+[PRO-006][your gitlab username] Start Conflict Resolution Matrix
 
 ---
 
@@ -121,7 +120,7 @@ Bot:
 FastForwardAbuser
 
 Final Commit:
-[PRO-007] Initiate Fast Forward Certification Process
+[PRO-007][your gitlab username] Initiate Fast Forward Certification Process
 
 ---
 
@@ -137,7 +136,7 @@ Bot:
 AncientCodeGuardian
 
 Final Commit:
-[PRO-008] Execute Legacy Navigation Procedure
+[PRO-008][your gitlab username] Execute Legacy Navigation Procedure
 
 ---
 
@@ -153,7 +152,7 @@ Bot:
 DependencyCrawler
 
 Final Commit:
-[PRO-009] Launch Dependency Discovery Protocol
+[PRO-009][your gitlab username] Launch Dependency Discovery Protocol
 
 ---
 
@@ -169,7 +168,7 @@ Bot:
 DefinitelyNotABot
 
 Final Commit:
-[PRO-010] Activate Human Verification Process
+[PRO-010][your gitlab username] Activate Human Verification Process
 
 ---
 
@@ -185,7 +184,7 @@ Bot:
 BranchChaosEngine
 
 Final Commit:
-[PRO-011] Deploy Branch Stabilization Procedure
+[PRO-011][your gitlab username] Deploy Branch Stabilization Procedure
 
 ---
 
@@ -201,7 +200,7 @@ Bot:
 ArchitectureAstronaut
 
 Final Commit:
-[PRO-012] Begin Secret Architecture Review Process
+[PRO-012][your gitlab username] Begin Secret Architecture Review Process
 
 ---
 
@@ -217,7 +216,7 @@ Bot:
 CIBreaker9000
 
 Final Commit:
-[PRO-013] Execute Homebrew Build Procedure
+[PRO-013][your gitlab username] Execute Homebrew Build Procedure
 
 ---
 
@@ -233,7 +232,7 @@ Bot:
 PagerStormBot
 
 Final Commit:
-[PRO-014] Launch Watchdog Escalation Procedure
+[PRO-014][your gitlab username] Launch Watchdog Escalation Procedure
 
 ---
 
@@ -249,7 +248,7 @@ Bot:
 DebateGenerator3000
 
 Final Commit:
-[PRO-015] Execute Neutral Decision Framework
+[PRO-015][your gitlab username] Execute Neutral Decision Framework
 
 ---
 
@@ -265,7 +264,7 @@ Bot:
 CacheMissCreator
 
 Final Commit:
-[PRO-016] Initiate Cache Management Workflow
+[PRO-016][your gitlab username] Initiate Cache Management Workflow
 
 ---
 
@@ -281,7 +280,7 @@ Bot:
 AmplificationOverlord
 
 Final Commit:
-[PRO-017] Start Amplification Safety Checklist
+[PRO-017][your gitlab username] Start Amplification Safety Checklist
 
 ---
 
@@ -297,7 +296,7 @@ Bot:
 HotfixGremlin
 
 Final Commit:
-[PRO-018] Deploy Rapid Injection Process
+[PRO-018][your gitlab username] Deploy Rapid Injection Process
 
 ---
 
@@ -313,7 +312,7 @@ Bot:
 WinterOutageBot
 
 Final Commit:
-[PRO-019] Begin Whitewalker Investigation Workflow
+[PRO-019][your gitlab username] Begin Whitewalker Investigation Workflow
 
 ---
 
@@ -329,7 +328,7 @@ Bot:
 DuckDisruptionBot
 
 Final Commit:
-[PRO-020] Launch Emergency Duck Formation Procedure
+[PRO-020][your gitlab username] Launch Emergency Duck Formation Procedure
 
 ---
 
@@ -345,7 +344,7 @@ Bot:
 OptimismBot
 
 Final Commit:
-[PRO-021] Initiate Maximum Skepticism Review Process
+[PRO-021][your gitlab username] Initiate Maximum Skepticism Review Process
 
 ---
 
@@ -361,7 +360,7 @@ Bot:
 RoutingChaosBot
 
 Final Commit:
-[PRO-022] Execute Traffic Management Protocol
+[PRO-022][your gitlab username] Execute Traffic Management Protocol
 
 ---
 
@@ -377,7 +376,7 @@ Bot:
 CommitFloodBot
 
 Final Commit:
-[PRO-023] Activate History Compression Procedure
+[PRO-023][your gitlab username] Activate History Compression Procedure
 
 ---
 
@@ -393,7 +392,7 @@ Bot:
 ForkDivergenceBot
 
 Final Commit:
-[PRO-024] Begin Fork Synchronization Protocol
+[PRO-024][your gitlab username] Begin Fork Synchronization Protocol
 
 ---
 
@@ -409,4 +408,4 @@ Bot:
 YOLODeployBot
 
 Final Commit:
-[PRO-025] Deploy Production Readiness Procedure
+[PRO-025][your gitlab username] Deploy Production Readiness Procedure
