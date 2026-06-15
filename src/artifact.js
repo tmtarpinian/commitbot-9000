@@ -10,5 +10,5 @@
 export const artifacts = [
   "Fork of Rebasing",
   "Merge Hammer",
-  "Rubber Duck of Truth"
+  "Rubber Duck of Truth",
 ];

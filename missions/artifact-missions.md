@@ -1,15 +1,15 @@
 # Artifact Missions
 
-Complete any Artifact Mission.
+There are 25 missions below. Pick a random one and then:
 
-For each mission:
-
-1. Add the Artifact
-2. Add the Directive
-3. Add the Protocol
-4. Commit after each step
-5. Squash with interactive rebase
-6. Use the Final Commit Message
+1. Take the mission's artifact value, and add it to the artifact.js array (just copy and paste, we're not actually writing javasript and calling `append`)
+2. Commit
+3. Take the mission's directive value, and add it to the directive.js array 
+4. commit
+5. Take the mission's protocol value, and add it to the protocol.js array 
+6. commit
+7. [Clean your history](../docs/missions.md#cleaning-history)
+8. Push
 
 ---
 
@@ -25,7 +25,7 @@ Protocol:
 Fork Synchronization Protocol
 
 Final Commit:
-[ART-001] Forge Fork of Rebasing
+[ART-001][your gitlab username] Forge Fork of Rebasing
 
 ---
 
@@ -41,7 +41,7 @@ Protocol:
 Merge Hammer Authorization Procedure
 
 Final Commit:
-[ART-002] Recover the Merge Hammer
+[ART-002][your gitlab username] Recover the Merge Hammer
 
 ---
 
@@ -57,7 +57,7 @@ Protocol:
 Duck Validation Workflow
 
 Final Commit:
-[ART-003] Bless the Rubber Duck of Truth
+[ART-003][your gitlab username] Bless the Rubber Duck of Truth
 
 ---
 
@@ -73,7 +73,7 @@ Protocol:
 Branch Stabilization Procedure
 
 Final Commit:
-[ART-004] Stabilize the Branch Stabilizer
+[ART-004][your gitlab username] Stabilize the Branch Stabilizer
 
 ---
 
@@ -89,7 +89,7 @@ Protocol:
 Conflict Cleaver Handling Guide
 
 Final Commit:
-[ART-005] Assemble the Conflict Cleaver
+[ART-005][your gitlab username] Assemble the Conflict Cleaver
 
 ---
 
@@ -105,7 +105,7 @@ Protocol:
 History Compression Procedure
 
 Final Commit:
-[ART-006] Calibrate the History Compressor
+[ART-006][your gitlab username] Calibrate the History Compressor
 
 ---
 
@@ -121,7 +121,7 @@ Protocol:
 Fast Forward Certification Process
 
 Final Commit:
-[ART-007] Repair the Fast Forward Wand
+[ART-007][your gitlab username] Repair the Fast Forward Wand
 
 ---
 
@@ -137,7 +137,7 @@ Protocol:
 Dependency Discovery Protocol
 
 Final Commit:
-[ART-008] Activate the Dependency Detector
+[ART-008][your gitlab username] Activate the Dependency Detector
 
 ---
 
@@ -153,7 +153,7 @@ Protocol:
 Donut Consumption Governance Standard
 
 Final Commit:
-[ART-009] Recover the Infinite Loop Donut
+[ART-009][your gitlab username] Recover the Infinite Loop Donut
 
 ---
 
@@ -169,7 +169,7 @@ Protocol:
 Whitewalker Investigation Workflow
 
 Final Commit:
-[ART-010] Wield the Whitewalker Debugger
+[ART-010][your gitlab username] Wield the Whitewalker Debugger
 
 ---
 
@@ -185,7 +185,7 @@ Protocol:
 Emergency Duck Formation Procedure
 
 Final Commit:
-[ART-011] Recover the Mighty Duck Whistle
+[ART-011][your gitlab username] Recover the Mighty Duck Whistle
 
 ---
 
@@ -201,7 +201,7 @@ Protocol:
 Nested System Inspection Procedure
 
 Final Commit:
-[ART-012] Tune the Deep Nest Scanner
+[ART-012][your gitlab username] Tune the Deep Nest Scanner
 
 ---
 
@@ -217,7 +217,7 @@ Protocol:
 Maximum Skepticism Review Process
 
 Final Commit:
-[ART-013] Deploy the Grumpy Cat Reviewer
+[ART-013][your gitlab username] Deploy the Grumpy Cat Reviewer
 
 ---
 
@@ -233,7 +233,7 @@ Protocol:
 Homebrew Build Procedure
 
 Final Commit:
-[ART-014] Construct the Homebrew Compiler
+[ART-014][your gitlab username] Construct the Homebrew Compiler
 
 ---
 
@@ -249,7 +249,7 @@ Protocol:
 Platypus Traffic Management Protocol
 
 Final Commit:
-[ART-015] Recover the Platypus Router
+[ART-015][your gitlab username] Recover the Platypus Router
 
 ---
 
@@ -265,7 +265,7 @@ Protocol:
 Watchdog Escalation Procedure
 
 Final Commit:
-[ART-016] Repair the Watchdog Beacon
+[ART-016][your gitlab username] Repair the Watchdog Beacon
 
 ---
 
@@ -281,7 +281,7 @@ Protocol:
 Rapid Injection Deployment Process
 
 Final Commit:
-[ART-017] Awaken the Viperware Injector
+[ART-017][your gitlab username] Awaken the Viperware Injector
 
 ---
 
@@ -297,7 +297,7 @@ Protocol:
 Snack-Based Defense Procedure
 
 Final Commit:
-[ART-018] Recover the Donut Shield
+[ART-018][your gitlab username] Recover the Donut Shield
 
 ---
 
@@ -313,7 +313,7 @@ Protocol:
 CATalyst Activation Workflow
 
 Final Commit:
-[ART-019] Power the CATalyst Core
+[ART-019][your gitlab username] Power the CATalyst Core
 
 ---
 
@@ -329,7 +329,7 @@ Protocol:
 Neutral Decision Making Framework
 
 Final Commit:
-[ART-020] Recover the Neutrality Engine
+[ART-020][your gitlab username] Recover the Neutrality Engine
 
 ---
 
@@ -345,7 +345,7 @@ Protocol:
 Human Verification Process
 
 Final Commit:
-[ART-021] Assemble the NotBot Detector
+[ART-021][your gitlab username] Assemble the NotBot Detector
 
 ---
 
@@ -361,7 +361,7 @@ Protocol:
 Bovine Cache Management Workflow
 
 Final Commit:
-[ART-022] Recover the Fluffy Cow Cache
+[ART-022][your gitlab username] Recover the Fluffy Cow Cache
 
 ---
 
@@ -377,7 +377,7 @@ Protocol:
 Legacy Navigation Procedure
 
 Final Commit:
-[ART-023] Tune the Code Trotter Compass
+[ART-023][your gitlab username] Tune the Code Trotter Compass
 
 ---
 
@@ -393,7 +393,7 @@ Protocol:
 Amplification Safety Checklist
 
 Final Commit:
-[ART-024] Recharge the Vitamin CE Amplifier
+[ART-024][your gitlab username] Recharge the Vitamin CE Amplifier
 
 ---
 
@@ -409,4 +409,4 @@ Protocol:
 Secret Architecture Review Process
 
 Final Commit:
-[ART-025] Recover the Illuminati Flowchart
+[ART-025][your gitlab username] Recover the Illuminati Flowchart
